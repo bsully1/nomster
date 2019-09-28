@@ -18,9 +18,6 @@
       <%= place.comments.last.message %>
       <small><%= place.comments.last.user.email %></small>
     </blockquote>
-    <b><%= photo.caption %></b> -
-      <%= image_tag photo.picture.to_s, class: 'img-fluid' %>
-      <small><%= photo.user.email %></small>
   </div>
 <% end %>
   </div>
