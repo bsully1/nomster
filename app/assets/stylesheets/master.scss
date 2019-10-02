@@ -71,6 +71,9 @@ blockquote p {
 
 .carousel-item {
   height: 500px;
+  background-size:cover !important;
+  background-position: center !important;
+
 }
 
 .carousel-item-container {
@@ -107,3 +110,7 @@ blockquote p {
   }
 }
 
+
+.carousel-item.item-1 {
+  background:image_path('food.jpg');
+}
