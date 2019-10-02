@@ -69,8 +69,22 @@ blockquote p {
   display: inline;
 }
 
-.food.jpg {
-  width:250px;
-  height:200px;
+.carousel-item {
+  height: 500px;
+}
 
+.carousel-item-container {
+  width: 100%;
+  text-align: center;
+  margin-top: 25px;
+  h3 {
+    color: white;
   }
+
+}
+
+.carousel-item.black-text {
+  h3 {
+    color: black;
+  }
+}
