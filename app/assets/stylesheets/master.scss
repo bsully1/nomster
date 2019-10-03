@@ -99,6 +99,8 @@ blockquote p {
   }
 }
 
+.carousel-item.green-text {
+  
 
 .carousel-item.white-text{
   h3 {
@@ -108,5 +110,13 @@ blockquote p {
 
 
 .carousel-item.item-1 {
-  background:image_path('food.jpg');
+  background:image_path('food-4.jpg');
+}
+
+.carousel-item.item-2 {
+  background:image_path('food-2.jpg');
+}
+
+.carousel-item.item-3 {
+  background:image_path('food-3.jpg');
 }
