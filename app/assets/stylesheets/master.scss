@@ -80,6 +80,8 @@ blockquote p {
   width: 100%;
   text-align: center;
   margin-top: 25px;
+  background-size:cover !important;
+  background-position: center !important;
   h3 {
     color: white;
     font-family: 'Helvetica Neue', Helvetica, sans-serif;
@@ -93,16 +95,10 @@ blockquote p {
 .carousel-item.black-text {
   h3 { 
     color: white;
+
   }
 }
 
-.carousel-item.green-text {
-  h3 {
-    color: white;
-    float: left;
-    margin-left: 125px;
-  }
-}
 
 .carousel-item.white-text{
   h3 {
