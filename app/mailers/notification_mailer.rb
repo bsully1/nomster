@@ -1,3 +1,4 @@
+include Rails.application.routes.url_helpers
 class NotificationMailer < ApplicationMailer
     default from: "no-reply@nomsterapp.com"
 
